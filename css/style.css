@@ -322,17 +322,17 @@ body.hb_is-open .hb-wrap {
 }
 
 .bg-image1 {
-  background: url("../../kadan-image/kadan-main/mainbg01.jpg") no-repeat center center;
+  background: url("../kadan-image/kadan-main/mainbg01.jpg") no-repeat center center;
   background-size: cover;
 }
 
 .bg-image2 {
-  background: url("../../kadan-image/kadan-main/mainbg02.jpg") no-repeat center center;
+  background: url("../kadan-image/kadan-main/mainbg02.jpg") no-repeat center center;
   background-size: cover;
 }
 
 .bg-image3 {
-  background: url("../../kadan-image/kadan-main/mainbg03.jpg") no-repeat center center;
+  background: url("../kadan-image/kadan-main/mainbg03.jpg") no-repeat center center;
   background-size: cover;
 }
 
@@ -439,7 +439,7 @@ input[type=submit] {
 .history {
   width: 100%;
   height: 681px;
-  background: url("../..//kadan-image/kadan-main/bg.jpg") no-repeat center center;
+  background: url("../kadan-image/kadan-main/bg.jpg") no-repeat center center;
   background-size: cover;
   font-weight: bold;
 }
@@ -565,7 +565,7 @@ input[type=submit] {
   width: 100%;
   height: 100%;
   padding: 60px 0 144px;
-  background: url("../../kadan-image/kadan-main/bg02.jpg") no-repeat center center;
+  background: url("../kadan-image/kadan-main/bg02.jpg") no-repeat center center;
   background-size: cover;
 }
 
@@ -676,7 +676,7 @@ input[type=submit] {
   width: 100%;
   height: 100%;
   padding: 60px 0 110px;
-  background: url("../../kadan-image/kadan-main/bg.jpg") no-repeat center center;
+  background: url("../kadan-image/kadan-main/bg.jpg") no-repeat center center;
   background-size: cover;
 }
 
@@ -739,7 +739,7 @@ input[type=submit] {
 .footer {
   width: 100%;
   padding-top: 65px;
-  background: url("../../kadan-image/kadan-main/bg3.jpg") no-repeat center center;
+  background: url("../kadan-image/kadan-main/bg3.jpg") no-repeat center center;
   background-size: cover;
 }
 
@@ -805,11 +805,11 @@ input[type=submit] {
 }
 
 #page-menu .page-mv__bg {
-  background: url("../../../kadan-image/kadan-menu/menu-header.png") no-repeat center center;
+  background: url("../kadan-image/kadan-menu/menu-header.png") no-repeat center center;
 }
 
 #page-onsen .page-mv__bg {
-  background: url("../../../kadan-image/kadan-onsen/onsen-header.png") no-repeat center center;
+  background: url("../kadan-image/kadan-onsen/onsen-header.png") no-repeat center center;
 }
 
 .onsen-efficacy {
