@@ -263,6 +263,19 @@ body.hb_is-open .hb-wrap {
   padding: 15px 0 15px 10px;
 }
 
+.page_current {
+  position: relative;
+}
+
+.page_current::after {
+  display: block;
+  position: absolute;
+  top: 35px;
+  width: 100%;
+  border-bottom: 2px solid #797878;
+  content: '';
+}
+
 @-webkit-keyframes zoom {
   0% {
     -webkit-transform: scale(1);
