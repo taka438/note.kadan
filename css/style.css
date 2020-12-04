@@ -439,7 +439,7 @@ input[type=text] {
 }
 
 select {
-  padding: 10px;
+  padding: 14px;
 }
 
 input[type=submit] {
@@ -1254,6 +1254,30 @@ input[type=submit] {
   .mv__text_hp_pr {
     padding-top: 20px;
     padding-right: 0;
+  }
+  .modal-contents {
+    top: 65px;
+    padding: 30px 60px;
+  }
+  .modal__title::after {
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+  .modal__title {
+    font-size: 1.6rem;
+  }
+  .form {
+    font-size: 1.3rem;
+  }
+  label {
+    margin: 12px 0;
+  }
+  input[type=text],
+  select {
+    font-size: 1.2rem;
+  }
+  input[type=submit] {
+    margin: 30px auto 0;
   }
   .history {
     height: auto;
