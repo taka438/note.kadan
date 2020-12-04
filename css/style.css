@@ -403,9 +403,11 @@ body.hb_is-open .hb-wrap {
 }
 
 .form_alert {
+  display: inline-block;
   font-size: 1.4rem;
   font-weight: bold;
   line-height: 1.7;
+  vertical-align: middle;
 }
 
 .form_hp_lh {
@@ -1257,7 +1259,7 @@ input[type=submit] {
   }
   .modal-contents {
     top: 65px;
-    padding: 30px 60px;
+    padding: 20px 60px;
   }
   .modal__title::after {
     margin-top: 15px;
@@ -1268,10 +1270,6 @@ input[type=submit] {
   }
   .form {
     font-size: 1.3rem;
-  }
-  .form_alert {
-    display: inline-block;
-    vertical-align: middle;
   }
   label {
     margin: 12px 0;
