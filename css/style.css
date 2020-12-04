@@ -1460,7 +1460,7 @@ input[type=submit] {
 
 @media only screen and (max-width: 568px) {
   body {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
   .mv__text {
     top: 115px;
@@ -1470,14 +1470,14 @@ input[type=submit] {
     padding-top: 10px;
   }
   .history__heading {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
   .history__text {
     margin-bottom: 20px;
     line-height: 1.5;
   }
   .history__name {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
   .abouts-inner {
     padding: 60px 10px;
@@ -1493,6 +1493,7 @@ input[type=submit] {
   }
   .abouts__title {
     margin-bottom: 30px;
+    font-size: 1.8rem;
   }
   .abouts__text {
     margin-bottom: 50px;
