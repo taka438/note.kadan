@@ -1269,6 +1269,10 @@ input[type=submit] {
   .form {
     font-size: 1.3rem;
   }
+  .form_alert {
+    display: inline-block;
+    vertical-align: middle;
+  }
   label {
     margin: 12px 0;
   }
