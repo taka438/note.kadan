@@ -209,7 +209,9 @@ body.hb_is-open .hb__btn_line::after {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
+  /* Fallback */
+  min-height: calc(var(--vh, 1vh) * 100);
   background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -219,7 +221,9 @@ body.hb_is-open .hb__btn_line::after {
   top: 0;
   right: -250px;
   width: 250px;
-  height: 100vh;
+  min-height: 100vh;
+  /* Fallback */
+  min-height: calc(var(--vh, 1vh) * 100);
   background-color: #F6F6F6;
   transition: right .3s ease-in-out;
 }
