@@ -3,10 +3,10 @@ $(function() {
   $(window).scroll(function() {
     if ($(window).scrollTop() !== 0) {
       $('body').addClass('is-fixed');
-      $('#page-home .logo_kadan').attr('src', './kadan-image/kadan-room/sub-header-logo.png');
+      $('#page-home .logo_kadan').attr('src', '../kadan-image/kadan-room/sub-header-logo.png');
     } else {
       $('body').removeClass('is-fixed');
-      $('#page-home .logo_kadan').attr('src', './kadan-image/kadan-main/top-header-logo.png');
+      $('#page-home .logo_kadan').attr('src', '../kadan-image/kadan-main/top-header-logo.png');
     }
   });
 
@@ -76,4 +76,15 @@ $(function() {
     $('.modal__bg, .modal-contents').fadeOut();
   });
 
+  //  iosの下部バーを補う
+  const setFillHeight = () => {
+    const vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
+  }
+  
+  // 画面のサイズ変動があった時に高さを再計算する
+  window.addEventListener('resize', setFillHeight);
+  
+  // 初期化
+  setFillHeight();
 });
