@@ -3,10 +3,10 @@ $(function() {
   $(window).scroll(function() {
     if ($(window).scrollTop() !== 0) {
       $('body').addClass('is-fixed');
-      $('#page-home .logo_kadan').attr('src', '../kadan-image/kadan-room/sub-header-logo.png');
+      $('#page-home .logo_kadan').attr('src', './kadan-image/kadan-room/sub-header-logo.png');
     } else {
       $('body').removeClass('is-fixed');
-      $('#page-home .logo_kadan').attr('src', '../kadan-image/kadan-main/top-header-logo.png');
+      $('#page-home .logo_kadan').attr('src', './kadan-image/kadan-main/top-header-logo.png');
     }
   });
 
